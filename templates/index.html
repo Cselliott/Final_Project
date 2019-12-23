@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+        </script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/css/style1.css">
+        <link rel="stylesheet" href="/static/css/d3Style.css">
+
+
+
+
+        <title>CPS Federal</title>
+    </head>
+
+    <body>
+        <!-- Navigation Section -->
+        <div class="navigation">
+            <nav class="navbar navbar-expand-lg">
+                <img id="jayhawk-icon" src="/static/images/ku_jayhawk.png" alt="Jayhawk icon">
+                <a class="navbar-brand" href="/">CPS Federal </a>
+                <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Graphs
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="/education_employed">Level of employment by education
+                                    degree </a>
+                                <a class="dropdown-item" href="/education_unemployed">Level of unemployment by
+                                    education degree </a>
+                                <a class="dropdown-item" href="/age_employed">Level of employment by age </a>
+                                <a class="dropdown-item" href="/age_unemployed">Level of unemployment by age </a>
+                            </div>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/data">Data</a>
+                        </li>
+                        <li class="nav-item">
+<<<<<<< HEAD
+                            <a class="nav-link" href="/comparison">Comparison</a>
+=======
+                            <a class="nav-link" href="/comparison">comparison</a>
+>>>>>>> d24216172bb5b94937645637e0d42adaea11d861
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="resizeMessage"></div>
+        <div class="christmasLights"></div>
+
+        <!-- Content Section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12">
+                    <!-- Left box  -->
+                    <div class="box">
+                        <h3 class="title">Visualize Me Captain</h3>
+                        <img class="cps_map" src="/static/images/CPS_Survey.jpg">
+
+                        <p>The Current Population Survey (CPS) is a monthly survey of about 60,000 U.S. households. The
+                            survey collects labor force
+                            characteristics and a variety demographic information from respondents. Designed as a
+                            nationally representative survey,
+                            the CPS data is <a href="https://www.kansascityfed.org/research/kcdc/cps/dataattributes"
+                                target="_blank">the
+                                source</a> for many key labor market indicators and <a
+                                href="https://thedataweb.rm.census.gov/ftp/cps_ftp.html" target="_blank">the official
+                                source</a> of
+                            the unemployment rate. The
+                            CPS is also used to calculate other labor market statistics including: labor force
+                            participation, hours worked, class of
+                            worker, industry, occupation, and reasons for unemployment.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12">
+                    <!-- Right Box -->
+                    <div class="box">
+                        <h5 class="title">Visualizations</h5>
+                        <hr>
+                        <strong>Employment by levels of education</strong>
+                        <a href="/education_employed">
+                            <img class="panel" src="/static/images/education_employed.PNG" alt="Employed by Education">
+                        </a>
+
+                        <strong>Unemployment by levels of education</strong>
+                        <a href="/education_unemployed">
+                            <img class="panel" src="/static/images/education_unemployed.PNG"
+                                alt="Unemployed by Education">
+                        </a>
+
+                        <strong>Employment by age groups</strong>
+                        <a href="/age_employed">
+                            <img class="panel" src="/static/images/age_employed.PNG" alt="Employed by age">
+                        </a>
+
+                        <strong>Unemployment by age groups</strong>
+                        <a href="/age_unemployed">
+                            <img class="panel" src="/static/images/age_unemployed.PNG" alt="Unemployed by age">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+        </div>
+        </div>
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer"></div>
+        </footer>
+
+    </body>
+
+</html>
