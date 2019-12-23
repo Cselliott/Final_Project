@@ -17,6 +17,9 @@ timestamp,keyword,count
 20070918,inflation,124
 20070918,recession,6
 20070918,unemployment,13
+20071031,inflation,219
+20071031,recession,5
+20071031,unemployment,10
 20071211,inflation,191
 20071211,recession,24
 20071211,unemployment,15
@@ -59,3 +62,12 @@ timestamp,keyword,count
 20090812,inflation,172
 20090812,recession,28
 20090812,unemployment,28
+20090923,inflation,256
+20090923,recession,33
+20090923,unemployment,47
+20091104,inflation,232
+20091104,recession,25
+20091104,unemployment,53
+20091216,inflation,352
+20091216,recession,10
+20091216,unemployment,64
