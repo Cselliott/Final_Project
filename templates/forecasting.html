@@ -26,27 +26,13 @@
 			<a href="/">Home</a>
 		</nav>
 
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<h1>Level of Employment by Education Degree</h1>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="iframeContainer">
-						<iframe src="/edu_employed_d3"></iframe>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12  col-md-12 col-md-offset-0">
-					<div class="article">
-						<p id="analysis">Analysis goes here</p>
-					</div>
-				</div>
-			</div>
-		</div>
+		<script>
+			function myFunction() {
+				location.replace("http://localhost:8888/notebooks/ku/Final_Project/forecasting/djia_forecasting.ipynb")
+			}
+
+			setTimeout(function () { myFunction(); }, 3000);
+		</script>
 
 	</body>
 

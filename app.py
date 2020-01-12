@@ -11,59 +11,28 @@ def home():
     return render_template("index.html")
 
 
-@app.route("/pyspark")
-def education_employed():
-    return render_template("pyspark.html")
+@app.route("/webscrapping")
+def webscrapping():
+    return render_template("01_web_scraping.html")
 
 
-@app.route("/pyspark_iframe")
-def edu_employed_d3():
-    return render_template("edu_employed_d3.html")
+@app.route("/wordcount")
+def wordcount():
+    return render_template("wordcount.html")
 
 
-@app.route("/education_unemployed")
-def education_unemployed():
-    return render_template("education_unemployed.html")
+@app.route("/sentiment")
+def sentiment():
+    return render_template("Tweepy Sentiment Analysis on Keyword.html")
 
 
-@app.route("/edu_unemployed_d3")
-def edu_unemployed_d3():
-    return render_template("edu_employed_d3.html")
+@app.route("/bigram")
+def bigram():
+    return render_template("Twitter Analysis with Bigram and Wordcloud.html")
 
-
-@app.route("/age_employed")
-def age_employed():
-    return render_template("age_employed.html")
-
-
-@app.route("/age_employed_d3")
-def age_employed_d3():
-    return render_template("age_employed_d3.html")
-
-
-@app.route("/age_unemployed")
-def age_unemployed():
-    return render_template("age_unemployed.html")
-
-
-@app.route("/age_unemployed_d3")
-def age_unemployed_d3():
-    return render_template("age_unemployed_d3.html")
-
-
-@app.route("/data")
-def data():
-    return render_template("data.html")
-
-
-@app.route("/comparison")
-def comparison():
-    return render_template("comparison.html")
-
-
-@app.route("/form")
-def game():
-    return render_template("form.html")
+@app.route("/forecasting")
+def forecasting():
+    return render_template("forecasting.html")
 
 
 if __name__ == "__main__":

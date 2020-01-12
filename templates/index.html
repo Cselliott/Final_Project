@@ -27,7 +27,7 @@
 
 
 
-        <title>CPS Federal</title>
+        <title>FOMC Transcripts Analysis</title>
     </head>
 
     <body>
@@ -35,7 +35,7 @@
         <div class="navigation">
             <nav class="navbar navbar-expand-lg">
                 <img id="jayhawk-icon" src="/static/images/ku_jayhawk.png" alt="Jayhawk icon">
-                <a class="navbar-brand" href="/">CPS Federal </a>
+                <a class="navbar-brand" href="/">FOMC Transcripts Analysis </a>
                 <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse"
                     data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -46,96 +46,104 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Graphs
+                                Machine Learning
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="/education_employed">Level of employment by education
-                                    degree </a>
-                                <a class="dropdown-item" href="/education_unemployed">Level of unemployment by
-                                    education degree </a>
-                                <a class="dropdown-item" href="/age_employed">Level of employment by age </a>
-                                <a class="dropdown-item" href="/age_unemployed">Level of unemployment by age </a>
+                                <a class="dropdown-item" href="/webscrapping" target="_blank">Web Scrapping by beautiful
+                                    soup
+                                </a>
+                                <a class="dropdown-item" href="/wordcount" target="_blank">Word Count by pyspark
+                                </a>
+                                <a class="dropdown-item" href="/textblob" target="_blank">Word Cloud by textblob
+                                </a>
+                                <a class="dropdown-item" href="/tweepy_sentiment" target="_blank">Tweepy Sentiment
+                                    Analysis</a>
+                                <a class="dropdown-item" href="/tweepy_worldcloud" target="_blank">Tweepy Wordcloud
+                                    Analysis</a>
+                                <a class="dropdown-item" href="/forecasting" target="_blank">Forecasting</a>
                             </div>
 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/data">Data</a>
-                        </li>
-                        <li class="nav-item">
-                            <<<<<<< HEAD <a class="nav-link" href="/comparison">Comparison</a>
-                                =======
-                                <a class="nav-link" href="/comparison">comparison</a>
-                                >>>>>>> d24216172bb5b94937645637e0d42adaea11d861
-                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Information
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item"
+                                    href="https://en.m.wikipedia.org/wiki/Great_Recession_in_the_United_States"
+                                    target="_blank">Last Recession</a>
+                                <a class="dropdown-item"
+                                    href="https://www.federalreserve.gov/monetarypolicy/fomc_historical_year.htm"
+                                    target="_blank">FOMC Transcripts
+                                </a>
+                            </div>
 
                     </ul>
                 </div>
             </nav>
         </div>
 
-        <div class="resizeMessage"></div>
-        <div class="christmasLights"></div>
+        <!-- <div class="resizeMessage"></div>
+        <div class="christmasLights"></div> -->
 
         <!-- Content Section -->
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-12">
+                <div class="col-lg-8 col-md-12">
                     <!-- Left box  -->
                     <div class="box">
-                        <h3 class="title">Visualize Me Captain</h3>
+                        <h3 class="title">Inflation/Interest/Recession/Unemployment</h3>
 
 
-                        <p>The Federal Open Market Committee (FOMC) is the branch of the Federal Reserve Board that
+                        <p>The <font size="3" color="blue"><strong>Federal Open Market Committee (FOMC)</strong></font>
+                            is the branch of the Federal Reserve Board that
                             determines the direction of monetary policy. The FOMC is composed of 12 members--the seven
-                            members of the Board of Governors and five of the 12 Reserve Bank presidents.
-                            The FOMC schedules eight meetings per year, one about every six weeks or so. <a
-                                href='https://www.federalreserve.gov/monetarypolicy/fomc_historical_year.htm'
-                                target="_blank">
-                                <font size="2">
-                                    transcript download</transcript>
-                                </font>
-                            </a>
+                            members of the <font size="3" color="blue"><strong>Board of Governors</strong></font> and
+                            five of the <font size="3" color="blue"><strong>12 Reserve Bank</strong></font> presidents.
+                            The FOMC schedules <font size="3" color="blue"><strong>eight meetings</strong></font> per
+                            year, one about every six weeks or so.
                         </p>
                         <p>
-                            That boosts economic growth by increasing the money supply. It lowers rates to spur
+                            The primary job of the Federal Reserve is to control <font size="3" color="red">
+                                <strong>inflation</strong></font> while avoiding a <font size="3" color="red">
+                                <strong>recession</strong></font>. It lowers <font size="3" color="red"><strong>interest
+                                    rates</strong></font> to spur
                             economic growth and reduce <font size="3" color="red">
                                 <strong>unemployment</strong></font>. FOMC members who favor this approach are called
-                            dovish. If the economy grows too fast, then prices rise, causing <font size="3" color="red">
-                                <strong>inflation</strong></font>.
+                            dovish. If the economy grows too fast, then prices rise, causing inflation.
                         </p>
                         <p>
-                            As <font size="3" color="red">
-                                <strong>inflation</strong></font> increases, the value of money decreases and the
+                            As inflation increases, the value of money decreases and the
                             Federal Reserve counters by
                             increasing the interest rates. During times when job growth is low and the economy is
                             stagnant, the Federal Reserve lowers the interest rates to spureconomic growth.
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-12">
+                <div class="col-lg-4 col-md-12">
                     <!-- Right Box -->
                     <div class="box">
-                        <h5 class="title">Visualizations</h5>
+                        <h5 class="title">Machine Learning & Visualizations</h5>
                         <hr>
-                        <strong>pyspark</strong>
-                        <a href="/pyspark" target="_blank">
-                            <img class="panel" src="/static/images/pyspark.PNG" alt="pyspark">
+                        <strong><i>Web Scrapping by beautiful soup</i></strong>
+                        <a href="/webscrapping" target="_blank">
+                            <img class="panel" src="/static/images/webscrapping.PNG" alt="webscrapping">
                         </a>
-
-                        <strong>Unemployment by levels of education</strong>
-                        <a href="/education_unemployed">
-                            <img class="panel" src="/static/images/education_unemployed.PNG"
-                                alt="Unemployed by Education">
+                        <strong><i>Word Counts by pyspark & Tokenization by ntlk</i></strong>
+                        <a href="/wordcount" target="_blank">
+                            <img class="panel" src="/static/images/wordcount.PNG" alt="wordcount">
                         </a>
-
-                        <strong>Employment by age groups</strong>
-                        <a href="/age_employed">
-                            <img class="panel" src="/static/images/age_employed.PNG" alt="Employed by age">
+                        <strong><i>Sentiment Analysis by tweepy & textblob</i></strong>
+                        <a href="/sentiment" target="_blank">
+                            <img class="panel" src="/static/images/tweepy_sentiment.PNG" alt="tweepy_sentiment">
                         </a>
-
-                        <strong>Unemployment by age groups</strong>
-                        <a href="/age_unemployed">
-                            <img class="panel" src="/static/images/age_unemployed.PNG" alt="Unemployed by age">
+                        <strong><i>Bigram and Wordclound by tweepy, textblob, & nltk</i></strong>
+                        <a href="/bigram" target="_blank">
+                            <img class="panel" src="/static/images/textblob.PNG" alt="textblob">
+                        </a>
+                        <strong><i>Forecasting by sklearn linear_model</i></strong>
+                        <a href="/forecasting" target="_blank">
+                            <img class="panel" src="/static/images/forecasting.PNG" alt="forecasting">
                         </a>
                     </div>
                 </div>
